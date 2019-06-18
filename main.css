@@ -1,0 +1,23 @@
+.column {
+    float:left; /* will position columns next to each other */
+    width: 100%; /* set width to 100% to make the columns fully wide */
+    height: 50px; /* we set the fixed height because floating elements will collapse if empty */
+    background-color: #000;
+    margin:  10px 10px;
+}
+
+/*@media (min-width: 768px) {
+    .column {
+        background-color: #e84610;
+        width: 100%;
+        margin:  10px 10px;
+    }
+}*/
+
+@media (min-width: 992px) {
+    .column {
+        background-color:  #099703;
+        width: 30%;
+        margin: 10px;
+    }
+}
